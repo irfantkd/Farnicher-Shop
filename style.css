@@ -29,6 +29,7 @@ body {
   color: #f9bf29 !important;
 }
 
+
 /* Customer Review */
 .customer-review {
  margin-top: 150px;
@@ -66,6 +67,7 @@ height: 80px;
 /* Head-Seaction */
 .Head-bg {
   background-color: rgb(59, 93, 80);
+      height: 600px;
 }
 
 .head-text {
@@ -99,6 +101,16 @@ height: 80px;
   background-color: none;
   border: 1px solid white;
   color: white;
+}
+
+.dots-bg{
+      right: 28px;
+    top: 124px;
+}
+
+.head-img :nth-child(2){
+  position: absolute;
+
 }
 
 /* Products */
@@ -237,7 +249,8 @@ background-color: #DCE5E4;
 }
 
 .footer-menu{
-  margin-top: 100px;
+  margin-top: 80px;
+  padding-bottom: 30px;
 }
 
 .list-stuyle{
@@ -246,4 +259,14 @@ background-color: #DCE5E4;
   flex-direction: column;
   gap: 10px  ;
  
+}
+
+.social-icon{
+  background-color: #DCE5E4 ;
+  padding: 10px;
+}
+
+.bootem-bar {
+  list-style: none;
+
 }
